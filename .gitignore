@@ -1,0 +1,5 @@
+# Ignore macOS Finder metadata
+.DS_Store
+
+# Ignore Jupyter notebook checkpoint files
+.ipynb_checkpoints/

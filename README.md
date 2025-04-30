@@ -93,6 +93,7 @@ Validation data  | X: (7870, 64, 64),   Y: (7870,)
 ---
 
 ## 🗝️ Key Project Features
+
 #### 🔸 CNN Model Development
   - Optimization of the uTHCD benchmark architecture  
   - Hyperparameter tuning (dropout, batch normalization, early stopping, LR scheduling)
@@ -123,7 +124,6 @@ Validation data  | X: (7870, 64, 64),   Y: (7870,)
   ==> Total augmented samples (Factor 0.1): 6287
   Total augmented data shapes | X: (6287, 64, 64), Y: (6287,)
   ```
-
     
 #### 🔸 Efficient Training
   - Executed on Colab with A100 / T4 GPUs for high throughput
@@ -165,7 +165,7 @@ Performance across all experiments was tracked using [`tuning_results.csv`](./da
 - **Batch Normalization Placement**
 - **Learning Rate Scheduling**
 - **Early Stopping Criteria**
----
+
 
 <details>
 <summary>🔁 <strong>Key Augmentation Experiments</strong></summary>
@@ -239,8 +239,6 @@ Performance across all experiments was tracked using [`tuning_results.csv`](./da
 
 A comparison between the official uTHCD benchmark and the enhanced model developed in this project, using refined augmentation, configured early stopping, batch normalization, and learning rate scheduling.
 
----
-
 #### 📋 Summary Table
 > Results highlighting our improved model performance compared to the benchmark.
 >
@@ -251,9 +249,7 @@ A comparison between the official uTHCD benchmark and the enhanced model develop
 | Ours | Optimized (Augmentation only) | 92.98 | 99.09 | 95.69 | 0.9298 | 0.9296 |
 | Ours | **Optimzized (BatchNorm and LR Schedule)** | **93.92** | **99.94** | **96.91** | **0.9392** | **0.9392** |
 
-
 #### 📖 Highlights & Evaluation
-
 > 💡 **Insights:**   
 - Reproducing the uTHCD benchmark did **not fully match** the reported performance, likely due to augmentation and training parameters not being explicitly stated in the original paper.
 
@@ -271,8 +267,6 @@ A comparison between the official uTHCD benchmark and the enhanced model develop
 - Indicates a strong **precision-recall balance**, and better handling of false positives/negatives across all 156 classes.
 
 > 📎 See [tuning_results.csv](./data/tuning_results.csv) for full experiment comparisons.
-
----
 
 #### 🖼️ Learning Curves 
 

@@ -165,7 +165,8 @@ Performance across all experiments was tracked using [`tuning_results.csv`](./da
 - **Batch Normalization Placement**
 - **Learning Rate Scheduling**
 - **Early Stopping Criteria**
-
+  
+> 📎 *The following experiment sets collectively showcase how targeted adjustments in augmentation, normalization, and training policies led to a highly generalized and accurate model for Tamil handwritten character recognition.*
 
 <details>
 <summary>🔁 <strong>Key Augmentation Experiments</strong></summary>
@@ -228,10 +229,6 @@ Performance across all experiments was tracked using [`tuning_results.csv`](./da
 > ✅ *Model14 achieved the highest performance by combining tuned LR scheduling with optimal batch normalization and augmentation.*
 
 </details>
-
----
-
-> 📎 *These experiment sets collectively showcase how targeted adjustments in augmentation, normalization, and training policies led to a highly generalized and accurate model for Tamil handwritten character recognition.*
 
 ---
 

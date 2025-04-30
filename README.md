@@ -67,6 +67,8 @@ Tamil's script, consisting of vowels, consonants, and compound characters, prese
 ---
 
 ## 🗃️ Dataset: uTHCD
+- Source: [Kaggle | uTHCD-Unconstrained Tamil Handwritten Database](https://www.kaggle.com/datasets/faizalhajamohideen/uthcdtamil-handwritten-database)
+  
 | Format    | Grayscale image size | Classes | Train-Test Split | Train-Val Split | Advantages over prior datasets |
 | -------- | ------- | ------- | ------- | ------- | ------- |
 | HDF5 (`.h5`)  | 64×64    | 156 Tamil characters    | 70:30    | 7:1    | <ul><li>Higher sample diversity</li><li>Balanced classes</li><li>Clean annotations</li></ul>|

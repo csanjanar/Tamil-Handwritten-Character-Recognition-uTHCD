@@ -1,7 +1,19 @@
 # 📝 Tamil Handwritten Character Recognition (THCR) Optimization using CNNs and uTHCD
 
-**Final-Year Undergraduate Project**  
+    Final-Year Undergraduate Project
 `CNNs · Data Augmentation · Multi-Class Classification · Model Evaluation · Benchmarking`
+
+This project investigates the optimization of Convolutional Neural Networks (CNNs) for **Tamil handwritten character recognition**, focusing on the **Unconstrained Tamil Handwritten Character Database (uTHCD)**.
+
+[faizalhajamohideen/uthcdtamil-handwritten-database](https://www.kaggle.com/datasets/faizalhajamohideen/uthcdtamil-handwritten-database)
+> ![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?logo=TensorFlow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?logo=Keras&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?logo=scikit-learn&logoColor=white) 
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?logo=opencv&logoColor=white)
 
 ---
 
@@ -28,8 +40,6 @@
 ---
 
 ## 🔍 Overview  
-
-This project investigates the optimization of Convolutional Neural Networks (CNNs) for **Tamil handwritten character recognition**, focusing on the **Unconstrained Tamil Handwritten Character Database (uTHCD)**.
 
 While Tamil OCR research has historically lacked standardized datasets and reproducible benchmarks, this project addresses the gap by:
 - Building upon the **benchmark CNN model proposed in the uTHCD paper**
